@@ -7,11 +7,11 @@
 
 - [x] Create-Task-Tutorial 
 
-- [x] Delete-Task
+- [ ] Delete-Task
 
-- [x] Semaphore 
+- [ ] Semaphore 
 
-- [x] Mutex
+- [ ] Mutex
 
-- [x] Notfiy
+- [ ] Notfiy
 
