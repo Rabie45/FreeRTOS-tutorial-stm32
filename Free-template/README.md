@@ -1,8 +1,8 @@
 # FreeRTOS Template
 
 ## Functions 
-void USART_SendData(USART_TypeDef* USARTx, uint16_t Data);
-  -used to send data over UART peripheral
+void USART_SendData(USART_TypeDef* USARTx, uint16_t Data).
+  -used to send data over UART peripheral.
 uint8_t USART_GetFlagStatus(USART_TypeDef* USARTx, uint32_t USART_FLAG);
   -used to check the flag to know the Status of some register
 void USART2_init(void);  //UART peripheral Initialization
