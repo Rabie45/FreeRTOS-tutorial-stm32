@@ -3,15 +3,19 @@
 In this part we will learn how to mcreate the task which is the basic structure of the RTOS\
 
 # Syntex
- BaseType_t xTaskCreate( TaskFunction_t pxTaskCode,
+ __BaseType_t xTaskCreate__( TaskFunction_t pxTaskCode,
                             const char * const pcName, /*lint !e971 Unqualified char types are allowed for strings and single characters only. */
                             const configSTACK_DEPTH_TYPE usStackDepth,
                             void * const pvParameters,
                             UBaseType_t uxPriority,
                             TaskHandle_t * const pxCreatedTask )
                             
-  vTaskStartScheduler();
-  - Starts the RTOS scheduler. After calling the RTOS kernel has control over which tasks are executed                            
+  __vTaskStartScheduler()__;
+  - Starts the RTOS scheduler. After calling the RTOS kernel has control over which tasks are executed  
+  
+  __taskYIELD()__
+  - Is used to request a context switch to another task. Without this function the the process only see one task\
+  
 **this function used to create task with some intial parameters**
   - TaskFunction_t pxTaskCode : which is the address of the task the task is the some line of code in function form 
   - const char * const pcName: The name of the task it is better to make a name for every task
