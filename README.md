@@ -1,15 +1,17 @@
 # FreeRTOS-tutorial-stm32
  💡 this tutorial contain a simple explanation for FreeRTOS using neculo-32f303RE\
+ 
  **⭐️Tutorials⭐️**\
+ 
 - [x] Free-Template 
 
-2-Create-Task-Tutorial [x]
+- [x] Create-Task-Tutorial 
 
-3-Delete-Task[ ]
+- [x] Delete-Task
 
-4-Semaphore [ ]
+- [x] Semaphore 
 
-5-Mutex[ ]
+- [x] Mutex
 
-6-Notfiy
+- [x] Notfiy
 
