@@ -2,10 +2,10 @@
 
 ## Functions 
 1. void USART_SendData(USART_TypeDef* USARTx, uint16_t Data).\
-   -used to send data over UART peripheral.
+   - used to send data over UART peripheral.
   
 2. uint8_t USART_GetFlagStatus(USART_TypeDef* USARTx, uint32_t USART_FLAG);\
-   -used to check the flag to know the Status of some register
+   - used to check the flag to know the Status of some register
   
 3. void USART2_init(void);  //UART peripheral Initialization\
    -used to initalize the UART hardware 
