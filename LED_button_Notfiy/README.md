@@ -1,7 +1,7 @@
 # FreeRTOS Template
 
 ## In this part New Functions APIs we gonna use
-```BaseType_t xTaskNotify( TaskHandle_t xTaskToNotify,
+BaseType_t xTaskNotify( TaskHandle_t xTaskToNotify,
                          uint32_t ulValue,
                          eNotifyAction eAction );
                          
