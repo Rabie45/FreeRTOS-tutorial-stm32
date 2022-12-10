@@ -1,9 +1,10 @@
 # FreeRTOS Template
 
 ## In this part New Functions APIs we gonna use
-BaseType_t xTaskNotify( TaskHandle_t xTaskToNotify,
+```BaseType_t xTaskNotify( TaskHandle_t xTaskToNotify,
                          uint32_t ulValue,
                          eNotifyAction eAction );
+                         ```
                          
 - TaskNotify() is used to send an event directly to and potentially unblock an RTOS task
 
@@ -23,6 +24,7 @@ eAction have multible possible case :
                              uint32_t ulBitsToClearOnExit,
                              uint32_t *pulNotificationValue,
                              TickType_t xTicksToWait );
+                             ```
 - this function used to wait until an event happen
 
  **Parameter**
