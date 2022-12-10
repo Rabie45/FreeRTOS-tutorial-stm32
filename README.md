@@ -7,12 +7,14 @@
 
 - [x] Create-Task-Tutorial 
 
+- [x] Notfiy
+
 - [ ] Delete-Task
 
 - [ ] Semaphore 
 
 - [ ] Mutex
 
-- [ ] Notfiy
+
 
 __# For support make star ⭐️__
