@@ -25,7 +25,7 @@ xTaskNotifyWait( uint32_t ulBitsToClearOnEntry,
                              TickType_t xTicksToWait );
 - this function used to wait until an event happen
 
- **Parameter**\
+ **Parameter**
  - uint32_t ulBitsToClearOnEntry : if ulBitsToClearOnEntry is 0x01, then bit 0 of the task's notification value will be cleared on entry to the function.
  - uint32_t ulBitsToClearOnExit : if ulBitsToClearOnExit is 0x03, then bit 0 and bit 1 of the task's notification value will be cleared before the function exits.
  - uint32_t *pulNotificationValue : Used to pass out the RTOS task's notification value. 
