@@ -7,7 +7,7 @@ BaseType_t xTaskNotify( TaskHandle_t xTaskToNotify,
                          
 - TaskNotify() is used to send an event directly to and potentially unblock an RTOS task
 
- **Parameter**
+ **Parameter**\
 TaskHandle_t xTaskToNotify : The handle of the RTOS task being notified. This is the target task.
 uint32_t ulValue : Used to update the notification value of the target task. 
 eNotifyAction eAction : An enumerated type that can take one of the values documented in the table below in order to perform the associated action.
@@ -24,7 +24,8 @@ xTaskNotifyWait( uint32_t ulBitsToClearOnEntry,
                              uint32_t *pulNotificationValue,
                              TickType_t xTicksToWait );
 - this function used to wait until an event happen
- **Parameter**
+
+ **Parameter**\
  - uint32_t ulBitsToClearOnEntry : if ulBitsToClearOnEntry is 0x01, then bit 0 of the task's notification value will be cleared on entry to the function.
  - uint32_t ulBitsToClearOnExit : if ulBitsToClearOnExit is 0x03, then bit 0 and bit 1 of the task's notification value will be cleared before the function exits.
  - uint32_t *pulNotificationValue : Used to pass out the RTOS task's notification value. 
