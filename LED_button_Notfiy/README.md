@@ -1,9 +1,9 @@
 # FreeRTOS Template
 
 ## In this part New Functions APIs we gonna use
-BaseType_t xTaskNotify( TaskHandle_t xTaskToNotify,
+```BaseType_t xTaskNotify( TaskHandle_t xTaskToNotify,
                          uint32_t ulValue,
-                         eNotifyAction eAction );
+                         eNotifyAction eAction );```
                          
 - TaskNotify() is used to send an event directly to and potentially unblock an RTOS task
 
@@ -19,10 +19,10 @@ eAction have multible possible case :
 - eSetValueWithOverwrite  Set the task's notification value to a specific value even if the previous value has not yet been read by the task. 
 - eSetValueWithoutOverwrite Set the task's notification value if the previous value has been read by the task. 
 
-xTaskNotifyWait( uint32_t ulBitsToClearOnEntry,
+```xTaskNotifyWait( uint32_t ulBitsToClearOnEntry,
                              uint32_t ulBitsToClearOnExit,
                              uint32_t *pulNotificationValue,
-                             TickType_t xTicksToWait );
+                             TickType_t xTicksToWait );```
 - this function used to wait until an event happen
 
  **Parameter**
