@@ -25,10 +25,10 @@ xTaskNotifyWait( uint32_t ulBitsToClearOnEntry,
                              TickType_t xTicksToWait );
 - this function used to wait until an event happen
  **Parameter**
-uint32_t ulBitsToClearOnEntry : if ulBitsToClearOnEntry is 0x01, then bit 0 of the task's notification value will be cleared on entry to the function.
-uint32_t ulBitsToClearOnExit : if ulBitsToClearOnExit is 0x03, then bit 0 and bit 1 of the task's notification value will be cleared before the function exits.
-uint32_t *pulNotificationValue : Used to pass out the RTOS task's notification value. 
-TickType_t xTicksToWait : The maximum time to wait in the Blocked state for a notification to be received if a notification is not already pending when xTaskNotifyWait() is called.
+ - uint32_t ulBitsToClearOnEntry : if ulBitsToClearOnEntry is 0x01, then bit 0 of the task's notification value will be cleared on entry to the function.
+ - uint32_t ulBitsToClearOnExit : if ulBitsToClearOnExit is 0x03, then bit 0 and bit 1 of the task's notification value will be cleared before the function exits.
+ - uint32_t *pulNotificationValue : Used to pass out the RTOS task's notification value. 
+ - TickType_t xTicksToWait : The maximum time to wait in the Blocked state for a notification to be received if a notification is not already pending when xTaskNotifyWait() is called.
 
 __flowcontrol__
 - when the button is pressed the buttontask is goning to notfiy the led task to work without pressing the ledtask will be blocked 
