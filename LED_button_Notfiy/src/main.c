@@ -17,10 +17,7 @@
 //extern void initialise_monitor_handles();
 
 //some macros
-#define TRUE 1
-#define FALSE 0
-#define AVAILABLE TRUE
-#define NOT_AVAILABLE FALSE
+
 
 /*******************Variables**************************/
 
@@ -31,7 +28,7 @@ TaskHandle_t xTaskHandler2 = NULL;
 TaskFunction_t pxTaskCode;
 UART_HandleTypeDef uart;
 char user_data[250];
-uint16_t UART_ACCESS_KEY = AVAILABLE;
+
 
 /*******************Functions**************************/
 void USART_SendData(USART_TypeDef* USARTx, uint16_t Data);
