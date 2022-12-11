@@ -3,7 +3,7 @@
  
  **⭐️Tutorials⭐️**
  
-- [x] Free-Template 
+- [x] FreeRTOS-Template 
 
 - [x] Create-Task-Tutorial 
 
