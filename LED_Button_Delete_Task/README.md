@@ -1,4 +1,4 @@
-#Delete Task
+# Delete Task
 
 ## In this part New Functions APIs we gonna use
 
@@ -11,7 +11,7 @@
   xTask 	The handle of the task to be deleted. Passing NULL will cause the calling task to be deleted.
   
   
- __control flow__
+ __Control flow__
   
   the led of the board will toggle until you press the button the task will be deleted from the scudeler you can se the segguer file from sigger dump and the gif using the button 
 
