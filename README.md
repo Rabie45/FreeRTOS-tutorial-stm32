@@ -9,7 +9,7 @@
 
 - [x] Notfiy
 
-- [ ] Delete-Task
+- [x] Delete-Task
 
 - [ ] Semaphore 
 
