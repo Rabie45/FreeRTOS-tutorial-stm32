@@ -11,6 +11,8 @@
 
 - [x] Delete-Task
 
+- [x] Queue mangment
+
 - [ ] Semaphore 
 
 - [ ] Mutex
