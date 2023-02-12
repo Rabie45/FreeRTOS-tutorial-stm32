@@ -1,4 +1,5 @@
 # Queue Creation
+if you dont know any thing about queue (https://www.geeksforgeeks.org/queue-data-structure/)
  ## In this part New Functions APIs we gonna use 
   -  QueueHandle_t xQueueCreate( UBaseType_t uxQueueLength,
                              UBaseType_t uxItemSize );
