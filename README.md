@@ -13,7 +13,7 @@
 
 - [x] Queue mangment
 
-- [ ] Semaphore 
+- [x] Semaphore 
 
 - [ ] Mutex
 
