@@ -37,3 +37,6 @@ __Flowcontrol__
   - Else no space in the queue switch to the second task
 - The second task take the semaphore to use and check if the queue recive print id of the taske
 - Else the queue is empty  
+
+
+![Capture](https://user-images.githubusercontent.com/76526170/218441712-196a5028-5127-412f-bb09-6d1b8a9ab43c.PNG)
